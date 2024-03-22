@@ -1,4 +1,6 @@
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2023-08-18T15:37:07");
+const tempoObjetivo1 = new Date("2023-08-18T15:37:07")
 
-contadores[0].textContent = tempoObjetivo1;
+let tempo = tempoObjetivo1.getFullYear();
+
+contadores[0].textContent = tempo;
