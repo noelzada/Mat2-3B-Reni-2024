@@ -73,5 +73,14 @@
         background-color: var(--botao-ativo);
         border-bottom: 4px solid var(--verde);
     }
-    
-            
+    .aba-conteudo{
+        width: 100px;
+        height: 100px;
+        background: #b5b;
+        margin: 10px;
+      }
+      
+      .ativo{
+        display: block;
+      }
+        
