@@ -88,23 +88,22 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
+
 .contador{
-    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
+    min-width: 100px;
 }
 
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
 
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
 }
 
 .contador-digito-texto{
